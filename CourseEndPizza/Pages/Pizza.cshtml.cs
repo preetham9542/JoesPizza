@@ -18,7 +18,10 @@ public class PizzaModel : PageModel
         new SelectListItem("Pepperoni", "Pepperoni"),
         new SelectListItem("Vegetarian", "Vegetarian"),
         new SelectListItem("Barbeque chicken","Barbeque chicken"),
-        new SelectListItem("onion","onion")
+        new SelectListItem("onion","onion"),
+        new SelectListItem("CheeseBurst","CheeseBurst"),
+        new SelectListItem("Tandoori Paneer","Tandoori Paneer"),
+        new SelectListItem("Corn & Capcicum","Corn & Capcicum")
       
     };
 
