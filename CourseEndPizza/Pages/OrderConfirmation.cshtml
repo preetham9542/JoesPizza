@@ -1,0 +1,13 @@
+﻿@page
+@model OrderConfirmationModel
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<p>Thank you for your order!</p>
+<p>Order ID: @Model.OrderId</p>
+<p>Pizza: @Model.SelectedPizza</p>
+<p>Total Price: $@Model.Amount</p>
