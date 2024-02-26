@@ -29,7 +29,7 @@
     <h1>@ViewData["Title"]</h1>
 
     <form method="post" asp-page-handler="AddToCart">
-        <label for="pizzaType">Select Pizza Type:</label>
+        <label for="pizzaType">Select Pizza:</label>
         <select asp-for="SelectedPizza" asp-items="Model.PizzaTypes" class="form-control"></select>
 
         <label for="quantity">Quantity:</label>
